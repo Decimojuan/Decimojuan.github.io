@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lamg="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, imitial-scale=1.0">
+        <title>hoja de vida</title>
+        <link rel="stylesheet" href="estilo.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header>
+                <h1>Hoja de vida-[Juan Perez]</h1>
+            <nav>
+                <a href="#seccion1">Perfil</a>
+                <a href="#seccion2">Proyectos</a>
+                <a href="#seccion3">Contactos</a>
+            </nav>
+
+        </header>
+        <section >
+          <h2 id="seccion1">perfil</h2>
+          <p>Hola, Juan perez, un desarrollador web apasionado con experiencia en HTML y CSS, especializado en crear diseños visualmente atractivos y funcionales. Poseo habilidades sólidas en la estructuración de contenido web y en el uso creativo de estilos para garantizar una experiencia de usuario fluida y profesional. Mi enfoque está en construir interfaces modernas, adaptativas y optimizadas para diferentes dispositivos. Siempre busco aprender nuevas técnicas y herramientas que potencien la calidad de los proyectos en los que trabajo."</p>
+
+        </section>
+        <section>
+            <h2 id="seccion2"> proyectos</h2>
+            <p> a continuacion, se alistan algunos proyectos que he trabajado. describen las tecnologias, el nombre y una pequeña galeria de capturas</p>
+            <section class="contenedor">
+                <div class="tabla">
+                    <div class="gallery"> <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="foto adjunta del gato"></a></div>
+                    <div><p class="title">CatPhotosApp</p></div>
+                    <div><p class="Descripcion"><strong>Descripcion:</strong> pronto para prcticar HTML basico y maquetado semantico</p></div>
+                    <table>
+                        <tr><th>tecnologia</th><th>uso</th></tr>
+                        <tr><th>Html5</th><th>Estructura</th></tr>
+                        <tr><th>CSS3</th><th>estilos basicos</th></tr>
+                    </table>
+                </div>  
+                <div class="tabla">
+                    <div class="gallery"> <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="tasa de cafe"></a></div>
+                    <div><p class="title">CSS cafe</p></div>
+                    <div><p class="Descripcion"><strong>Descripcion:</strong>Maquetacion estilo de un menu tipo cafe, con transciones y diseño responsive.</p></div>
+                    <table>
+                        <tr><th>tecnologia</th><th>uso</th></tr>
+                        <tr><th>Html5</th><th>Estructura</th></tr>
+                        <tr><th>CSS3</th><th>maquetacion y responsive</th></tr>
+                    </table>
+                </div> 
+                <div class="tabla">
+                    <div class="gallery"> <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg" alt="gato de galeria"></a></div>
+                    <div><p class="title">css flexbox</p></div>
+                    <div><p class="Descripcion"><strong>Descripcion:</strong>Maquetacion estilo de galeria de fotos adaptativa con transciones y diseño responsive.</p></div>
+                    <table>
+                        <tr><th>tecnologia</th><th>uso</th></tr>
+                        <tr><th>Html5</th><th>Estructura</th></tr>
+                        <tr><th>CSS3</th><th>maquetacion y responsive</th></tr>
+                    </table>
+                </div> 
+                <div class="tabla">
+                    <div class="gallery"> <img src="img/Captura.PNG" alt="captura de registro"></a></div>
+                    <div><p class="title">formularios HTML </p></div>
+                    <div><p class="Descripcion"><strong>Descripcion:</strong>Maquetacion de una página de registro con nuevas herramientas CSS.  con transciones y diseño responsive.</p></div>
+                    <table>
+                        <tr><th>tecnologia</th><th>uso</th></tr>
+                        <tr><th>Html5</th><th>Estructura</th></tr>
+                        <tr><th>CSS3</th><th>maquetacion y responsive</th></tr>
+                    </table>
+                </div> 
+            </section> 
+        </section>
+        <section>
+           <h2 id="seccion3">Contactos</h2>
+           <p>si desea comunicarte conmigo, por favor diligencia el siguiente formulario:</p>
+           <form>
+            <legend>Nombre:</legend>
+           <label for="nombre">
+           <input type="text" id="nombre" name="nombre"  required><ul></ul>
+           </label>
+           <legend>correo electronico:</legend>
+           <label for="correo">
+           <input type="email" id="correo" name="correo" required><ul></ul>
+           </label>
+           <legend>mensaje:</legend>
+           <label for="mensaje">
+           <textarea id="mensaje" id="mensaje" name="bio" rows="3" cols="30"></textarea><ul></ul>
+           </label>
+           <input type="submit" value="enviar" />
+           </form>
+           
+        </section>
+        <footer>
+            <p>
+              &copy; 2025 [ Juan Perez], ejemplo de hoja d evida estatica HTML y CSS
+            </p>
+          </footer>
+    </body>
+</html>
